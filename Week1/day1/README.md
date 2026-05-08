@@ -14,7 +14,6 @@ Practice SQL fundamentals using DB Fiddle.
 - datacreation.sql → Table creation script
 - questions.md → Practice questions
 - solutions.sql → SQL solutions
-- output.png → Query execution output
 
 ## Platform Used
 DB Fiddle
