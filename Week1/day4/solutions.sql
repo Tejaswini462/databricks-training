@@ -89,3 +89,38 @@ GROUP BY p.project_name;
 SELECT *
 FROM Employee
 WHERE project_id IS NULL;
+
+-- Question 61
+SELECT e.name AS employee_name, d.name AS department_name
+FROM Employee e
+LEFT JOIN Department d
+ON e.department_id = d.department_id;
+
+-- Question 62
+SELECT d.name AS department_name, e.name AS employee_name
+FROM Employee e
+RIGHT JOIN Department d
+ON e.department_id = d.department_id;
+
+-- Question 63
+SELECT *
+FROM Employee
+WHERE project_id IS NULL;
+
+-- Question 64
+SELECT d.*
+FROM Department d
+WHERE d.department_id NOT IN (
+    SELECT department_id
+    FROM Employee
+    WHERE salary > 80000
+);
+
+-- Question 65
+SELECT e.*
+FROM Employee e
+WHERE e.salary = (
+    SELECT MIN(e2.salary)
+    FROM Employee e2
+    WHERE e2.department_id = e.department_id
+);
