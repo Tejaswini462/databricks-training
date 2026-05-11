@@ -29,3 +29,13 @@
 59. Select project names and the number of employees working on each project.
 
 60. Select employees who are not assigned to any project.
+
+61. Select all employees and their department names using LEFT JOIN.
+
+62. Select all departments and employee names using RIGHT JOIN.
+
+63. Select employees with NULL project assignments.
+
+64. Select departments where no employee salary is greater than 80000.
+
+65. Select employees whose salary is equal to the minimum salary in their department.
