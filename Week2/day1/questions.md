@@ -1,21 +1,21 @@
-# Week 1 - Day 5 Questions
+# Week 2 - Day 1 Questions
 
-1. Display all students and the courses they are enrolled in. Include students who are not enrolled in any course.
+1. Use ROW_NUMBER() to assign a row number to employees ordered by salary descending.
 
-2. Find all courses that currently have no students enrolled.
+2. Use RANK() to rank employees by salary.
 
-3. Display all instructors and the courses they teach, including instructors who are not assigned to any course.
+3. Use DENSE_RANK() to rank employees by salary.
 
-4. Find all courses that do not have an instructor assigned.
+4. Find the top 3 highest-paid employees using a window function.
 
-5. Display all students and enrollment information using a RIGHT JOIN.
+5. Rank employees within each department using PARTITION BY.
 
-6. Find students who are not enrolled in any course.
+6. Display the highest salary in each department using a window function.
 
-7. Use a FULL OUTER JOIN to display all students and enrollments, including unmatched rows from both tables.
+7. Calculate the running total of order amounts ordered by order_date.
 
-8. Find all courses that have never appeared in the enrollments table.
+8. Calculate the cumulative sales amount for each employee.
 
-9. Display all instructors and courses using a FULL OUTER JOIN and identify unmatched rows.
+9. Use LAG() to show the previous order amount for each customer.
 
-10. Create a report showing student name, course name, and instructor name. Include rows even if course or instructor information is missing.
+10. Use LEAD() to show the next order amount for each customer.
