@@ -1,14 +1,17 @@
-# Week 1 - Day 5 SQL Joins Practice
+# Week 2 - Day 1 SQL Practice
 
 ## Objective
-Practice SQL joins including LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN.
+Practice SQL Window Functions including ROW_NUMBER(), RANK(), DENSE_RANK(), LAG(), LEAD(), and running totals.
 
 ## Topics Covered
-- LEFT JOIN
-- RIGHT JOIN
-- FULL OUTER JOIN
-- Handling NULL values
-- Multi-table joins
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- PARTITION BY
+- Running Totals
+- LAG()
+- LEAD()
+- Window Functions
 
 ## Files Included
 - questions.md
@@ -19,4 +22,4 @@ Practice SQL joins including LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN.
 DB Fiddle
 
 ## Outcome
-Completed SQL join queries involving students, courses, enrollments, and instructors tables.
+Completed SQL analytical queries using window functions and partitions successfully.
